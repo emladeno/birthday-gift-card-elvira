@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#4a4e69, #9a8c98);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bdaymum-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+  
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1683133842563-3232dddc3d72?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+#gift-img-love:hover {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjA5Z3ZjZnl3d3Z5N3U4NGY2eTM0ZjE2amVndDdxdnIwMnNiNXR1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ha6vsupXjJVMZ4WJsT/giphy.gif");
+}
+
+#gift-img-funny:hover {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHZiejQ3NnZrbm51aHdrMmpwamFscWtlcnBxNHBhbTZ6MXFrcWlzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4KibWpBGWchSqCRy/giphy.gif");
+}
+
+#gift-img-incredible:hover {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTJodjg0dHRlZHU4Y3ZvNnFiODRiYThmN3FvcjhjYmNuZGhuaWIzayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8BMKfgDRW5ODZHrwec/giphy.gif");
+}
+
+#gift-img-cheerful:hover {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzM4MmdtdXdmY3M5bTZvaXBzdmtkZzQ3aDBxNHp3cnZzOGRxN2k3NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hkMXte9dBJFfO/giphy.gif");
+}
+
+#gift-img-special:hover {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDlxN2NpZnIyNWl5bHNxNW55d3FmbmluN2NqaTZ0Z2F1Y2t4OXNqMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kMI3z7b9RWrYQbsXd2/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
